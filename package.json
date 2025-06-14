@@ -2,9 +2,9 @@
   "name": "ci-cd-crash",
   "version": "1.0.0",
   "main": "index.js",
- "scripts": {
-  "test": "jest"
-},
+  "scripts": {
+    "test": "jest"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/1bhavyasoni/ci-cd-crash.git"
@@ -19,5 +19,8 @@
   "description": "",
   "devDependencies": {
     "jest": "^30.0.0"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
   }
 }
